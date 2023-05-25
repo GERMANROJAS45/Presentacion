@@ -1,0 +1,39 @@
+.mipresentacion{
+    background-color: rgb(30, 139, 139);/*color de fondo*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*tipo grafia*/
+    border: 3px;/*que establece el estilo de línea para los cuatro*/
+    border-radius: 30px;/* nos permite redondear los bordes de las cajas*/
+}
+.ejercicio{
+    color: rgb(39, 0, 130);/*selecciona el valor de color de primer plano del contenido de elemento de texto y decoraciones de texto*/
+    text-align: center;/*use la propiedad text-align y defínala con el valor 'center.*/
+}
+.fotomia{
+    justify-content: center;/*define cómo el navegador distribuye el espacio entre y alrededor de los elementos de contenido a lo largo del eje principal de un contenedor flexible y el eje en línea de un contenedor de cuadrícula*/
+    display: flex;/*especifica si un elemento es tratado como block or inline element y el diseño usado por sus hijos, como flow layout(Diseño de Flujo), grid(Cuadricula) o flex(Flexible)*/
+    width: 250px;/*especifica el ancho del área de contenido del elemento*/
+    height: 150px;/*especifica la altura de un elemento*/
+}
+.imagen{
+    display: block;/*el elemento se muestra como un bloque, como siempre se han hecho los párrafos y encabezados*/
+    justify-content: center;/*defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container*/
+    display: flex;/*especifica si un elemento es tratado como block or inline element y el diseño usado por sus hijos, como flow layout(Diseño de Flujo), grid(Cuadricula) o flex(Flexible)*/
+    text-align: center;/*Para centrar el texto dentro de un elemento*/
+    padding: 10px;/*el espacio entre su contenido y su borde.*/
+}
+body{
+    margin: auto;/*establece el margen para los cuatro lados*/
+    width: 800px; /*especifica el ancho del área de contenido del elemento*/
+    padding: 50px;/*el espacio entre su contenido y su borde.*/
+    text-align: justify;/*se agrega espacio entre palabras para que ambos bordes de cada línea estén alineados con ambos márgenes*/
+}
+
+.navegador{
+     display: flex;/*nos permite maquetar nuestras páginas web de una manera mucho más fácil de lo que se hacía con la forma tradicional*/
+     list-style: none;/*establece el marcador (como un disco, un carácter o un estilo de contador personalizado) de un elemento de lista*/
+     justify-content: space-evenly;/*defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid containe*/
+    background-color: rgb(2, 126, 126);/*Establézcalo con el nombre de color o el código que desee y colóquelo dentro de un atributo de estilo*/
+    font-size: 25px;/*el tamaño de los caracteres que se muestran en una pantalla o se imprimen en una página*/
+    border-radius: 50;/* Se usa principalmente en el diseño*/
+    font-family: 'Times New Roman', Times, serif;/*En CSS (y en la tipografía en general) hay cinco tipos básicos, o familias, de fuentes: serif, sans serif, cursiva, fantasía y monoespacio.*/
+}
